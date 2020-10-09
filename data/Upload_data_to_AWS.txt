@@ -1,0 +1,15 @@
+To upload the content of the folder:
+
+/Users/Path_to_Data/data/interim
+
+to the s3 bucket:
+
+data, in the folder interim
+
+and exclude the following file:
+
+full_df.csv
+
+write in the Terminal the following command line:
+
+aws s3 sync /Users/Path_to_Data/data/interim s3://data/interim/ --exclude full_df.csv
