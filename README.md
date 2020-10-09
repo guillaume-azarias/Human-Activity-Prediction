@@ -22,12 +22,12 @@ The overall goal is to find patterns in the sensors' signals that correlate with
 **Milestones 2**: Real-time activity reporting every 15 - 30 minutes. Be able to detect an activity (and maybe the type of activity) and send a notification.
 
 ## Data:
-device                                object
-tenant                                object
-light                                float64
-temperature                          float64
-humidity                             float64
-co2                                  float64
+- device                                object
+- tenant                                object
+- light                                float64
+- temperature                          float64
+- humidity                             float64
+- co2                                  float64
 
 Light, temperature, humidity and CO2 were time series of ambient value measured every 20sec.
 
