@@ -12,9 +12,10 @@ Human activity patterns can be derived from different sensors like CO2, temperat
 
 ## Objectives :
 
-This project focuses on analysing data derived from sensors deployed in households.
+This project focuses on analysing data derived from sensors deployed in households. The overall goal is to find patterns in the sensors' signals that correlate with a person's activity.
 
-The overall goal is to find patterns in the sensors' signals that correlate with a person's activity.
+A short presentation of the results can be found here:
+[![Human Pattern Prediction](http://img.youtube.com/vi/AL4BGwj-aBA/0.jpg)](http://www.youtube.com/watch?v=AL4BGwj-aBA "Predictive Analytics")
 
 ## Milestones:
 **Milestones 1**: Normalize the data, identify patterns, detect certain activities.
