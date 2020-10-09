@@ -46,8 +46,8 @@ Light, temperature, humidity and CO2 were time series of ambient value measured 
 
 **`1_exploration`**: first handling of the data. Plotting time-series to find the relevant duration and amplitude of patterns. Data interpretation on a few examples.
 
-**`2_forecasting`**: Anomaly detection using time-series forecasting using Prophet from facebook
+**`2_forecasting`**: Anomaly detection using time-series forecasting using Prophet from facebook. Possibility to run a single instance, or let the script determine the best parameters for prediction: it will try several numbers of days for the training (this was the most critical parameter to my experience), sort the results according to the mean average percentage error and save the best Prophet result. 
 
-**`2_forecasting_GridSearch`**: Runs Prophet, trying several numbers of days for the training (this was the most critical parameter to my experience), sort the results according to the mean average percentage error and save the best Prophet result. In addition, there is a loop to run the script on a sample of days (eg 10 days per device, user-defined), to be able to check if the script works with all kind of results.
+**`2_forecasting_GridSearch`**: This script aims to check if the script is relevant for production. A loop to run the script on a random sample of days (eg 10 days per device, user-defined), to be able to check if the script works with all kind of results.
 
 **`3_dashboard`**:  Web interface dedicated to the caregivers to inform and alert on the patient activities.
