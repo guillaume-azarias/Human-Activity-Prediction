@@ -51,4 +51,4 @@ Light, temperature, humidity and CO2 were time series of ambient value measured 
 
 **`2_forecasting_GridSearch`**: This script aims to check if the script is relevant for production. A loop to run the script on a random sample of days (eg 10 days per device, user-defined), to be able to check if the script works with all kind of results.
 
-**`3_dashboard`**:  Web interface dedicated to the caregivers to inform and alert on the patient activities.
+**`3_dashboard`**:  Remote Monitoring Solution based on a web interface dedicated to the caregivers to inform and alert on the patient activities.
