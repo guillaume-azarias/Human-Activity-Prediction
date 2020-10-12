@@ -13,7 +13,7 @@ Human activity patterns can be derived from different sensors like CO2, temperat
 ***
 
 ## Objectives :
-This project focuses on analysing data derived from sensors deployed in households. The goal is to find patterns in the sensors' signals that correlate with a person's activity. If irregularities are detected, an app processing the ambient environmental data can actively notifies caregivers.
+This project focuses on analysing data derived from sensors deployed in households. The goal is to find patterns in the sensors' signals that correlate with a person's activity. If irregularities are detected, an app processing the ambient environmental data actively notifies the caregivers.
 
 ## Milestones:
 **Milestones 1**: Normalize the data, identify patterns, detect certain activities.
@@ -21,25 +21,24 @@ This project focuses on analysing data derived from sensors deployed in househol
 **Milestones 2**: Real-time activity reporting every 15 - 30 minutes. Be able to detect an activity (and maybe the type of activity) and send a notification.
 
 ## Data:
-- device                                object
-- tenant                                object
-- light                                float64
-- temperature                          float64
-- humidity                             float64
-- co2                                  float64
-
-Light, temperature, humidity and CO2 were time series of ambient value measured every 20sec.
+Light, temperature, humidity and CO2 were time series of ambient values measured every 20sec using a sensor located in the room of a resident.
 
 ## Results
 ### Workflow
 ![Workflow](Workflow_.png)
 
 ### Illustrations
-For each resident, single page shows the user (left side) and resident (right side) section. The user section is dedicated to identify the caregiver, analysis mode, time frame and parameter used for activity detection. The resident section shows the contact details, summary of data analysis and data illustration. Below are shown simulated cases where the resident exhibited a usual and unual activity, respectively.
+For each resident, an individual dashboard shows the user (left side) and resident (right side) information:
+- The user section is dedicated to identify the caregiver, analysis mode, time frame and parameter used for activity detection.
+- The resident section shows the contact details, summary of data analysis and data illustration.
+
+Below are shown simulated cases, where two residents exhibited a usual and unual activity, respectively.
 ![Usual Activity](Usual_Activity.png)
 ![Unusual Activity](Unusual_Activity.png)
 
-*How does it work ?* 
+*How does it work ?*
+Ederly peoples tend to exhibit the same routine over days and weekdays. Waking up, going out for a walk or nightly bathroom breaks occur at the same time of the day and the week. Therefore, processing the data from previous days allows to predict expected behavior of a resident (eg presence in a room from the CO2 concentration data) and anomalies can be detected by comparing the predicted behavior with measured data.
+The measured and predicted data are shown in black and blue on the graph, respectively. Anomalies are shown in red. The dashboard allows the caregiver to check if the resident exhibited an unusual behavior and decide if he should check him/her.
 
 A summary of our results was presented during a meetup webinar:
 [![Human Pattern Prediction](http://img.youtube.com/vi/AL4BGwj-aBA/0.jpg)](http://www.youtube.com/watch?v=AL4BGwj-aBA "Predictive Analytics")
