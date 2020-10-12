@@ -1,5 +1,7 @@
 # Human Activity Prediction from ambient sensor's data
 
+[Overview](Overview.png)
+
 *Capstone project realised during the Data Science bootcamp at the Propulsion Academy (02/2020).*
 
 Collaboration with Christophe Bousquet and Juhyun Schoebi.
@@ -26,6 +28,7 @@ Light, temperature, humidity and CO2 were time series of ambient values measured
 ## Results
 ### Workflow
 ![Workflow](Workflow_.png)
+The ambient sensor data is collected and securely transfered to a cloud for cleaning, preprocessing and analysis. A dashboard validated by the UX team is accessible to caregivers, allowing them if they need to proceed to a resident checking.
 
 ### Illustrations
 For each resident, an individual dashboard shows the user (left side) and resident (right side) information:
@@ -33,11 +36,14 @@ For each resident, an individual dashboard shows the user (left side) and reside
 - The resident section shows the contact details, summary of data analysis and data illustration.
 
 Below are shown simulated cases, where two residents exhibited a usual and unual activity, respectively.
+
 ![Usual Activity](Usual_Activity.png)
+
 ![Unusual Activity](Unusual_Activity.png)
 
 *How does it work ?*
-Ederly peoples tend to exhibit the same routine over days and weekdays. Waking up, going out for a walk or nightly bathroom breaks occur at the same time of the day and the week. Therefore, processing the data from previous days allows to predict expected behavior of a resident (eg presence in a room from the CO2 concentration data) and anomalies can be detected by comparing the predicted behavior with measured data.
+
+Ederly peoples tend to exhibit the same routine over days and weekdays. Waking up, going out for a walk or nightly bathroom breaks occur generally at the same time of the day and the week. Therefore, processing the data from previous days allows for predicting the expected behavior of a resident (eg presence in a room from the CO2 concentration data) and anomalies can be detected by comparing the predicted behavior with measured data.
 The measured and predicted data are shown in black and blue on the graph, respectively. Anomalies are shown in red. The dashboard allows the caregiver to check if the resident exhibited an unusual behavior and decide if he should check him/her.
 
 A summary of our results was presented during a meetup webinar:
@@ -48,7 +54,9 @@ A summary of our results was presented during a meetup webinar:
 
 **Output**: Analysis report of activity. Dashboard for a patient-specific overview
 
-**Value Proposition**: Tells the caregiver/family if a resident is behaving normally or exhibit an abnormal activity. Detects persons in need of help
+**Value Proposition**: Tells the caregiver/family if a resident is behaving normally or exhibit an abnormal activity. Detects persons in need of help. This is especially valuable when caregivers need to check a high number of person, allowing them to
+- get notified in real time when a resident exhibits an abnormal behavior,
+- prioritize individual resident visits and organize their work
 
 **Integration**: Dashboard accessible through a web interface
 
