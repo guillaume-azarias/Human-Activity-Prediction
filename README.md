@@ -32,9 +32,15 @@ Light, temperature, humidity and CO2 were time series of ambient value measured 
 
 ## Results
 ### Workflow
-[!Workflow](Workflow_.png)
+![Workflow](Workflow_.png)
 
 ### Illustrations
+For each resident, single page shows the user (left side) and resident (right side) section. The user section is dedicated to identify the caregiver, analysis mode, time frame and parameter used for activity detection. The resident section shows the contact details, summary of data analysis and data illustration. Below are shown simulated cases where the resident exhibited a usual and unual activity, respectively.
+![Usual Activity](Usual_Activity.pdf)
+![Unusual Activity](Unusual_Activity.pdf)
+
+*How does it work ?* 
+
 A summary of our results was presented during a meetup webinar:
 [![Human Pattern Prediction](http://img.youtube.com/vi/AL4BGwj-aBA/0.jpg)](http://www.youtube.com/watch?v=AL4BGwj-aBA "Predictive Analytics")
 

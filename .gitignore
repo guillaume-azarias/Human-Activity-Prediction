@@ -3,9 +3,6 @@
 
 # Ignore files
 git_pusher.sh
-data/Upload_data_to_AWS.txt
-docs/Workflow.drawio
-
 
 # Ignore the folders
 figures/
