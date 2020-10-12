@@ -17,7 +17,7 @@ figures/
 *.efx
 *.gbr
 *.key
-*.png
+# *.png
 *.pps
 *.ppt
 *.pptx
