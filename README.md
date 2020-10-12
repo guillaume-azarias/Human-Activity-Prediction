@@ -1,6 +1,6 @@
 # Human Activity Prediction from ambient sensor's data
 
-[Overview](Overview.png)
+![Overview](Overview.png)
 
 *Capstone project realised during the Data Science bootcamp at the Propulsion Academy (02/2020).*
 
