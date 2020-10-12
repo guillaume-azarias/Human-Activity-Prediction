@@ -1,21 +1,27 @@
-# Identification of patterns correlating with person's activity
+# Human Activity Prediction from ambient sensor's data
 
-*Capstone project realized during the Data Science bootcamp at the Propulsion Academy (02/2020)*
+*Capstone project realized during the Data Science bootcamp at the Propulsion Academy (02/2020).*
 
 Collaboration with Christophe Bousquet and Juhyun Schoebi.
 
+A summary of our results was presented during a meetup webinar:
+[![Human Pattern Prediction](http://img.youtube.com/vi/AL4BGwj-aBA/0.jpg)](http://www.youtube.com/watch?v=AL4BGwj-aBA "Predictive Analytics")
+
 
 ## Background:
-Human activity patterns can be derived from different sensors like CO2, temperature, noise, etc. If irregularities are detected, an app processing the ambient environmental data can actively notifies caregivers.
+Human activity patterns can be derived from different sensors like CO2, temperature, noise, etc. For instance, the presence of person can be detected by measuring the ambient concentration of CO2. Quantifying how often a person opens or closes a windows can be derived from light, temperature or humidity data.
 
+***
+|**Find patterns in the sensor signals that correlate with a person's activity**|
+|:-------:|
+***
+
+***
 ## Project Goals : Find patterns in the sensor signals that correlate with a person's activity.
+***
 
 ## Objectives :
-
-This project focuses on analysing data derived from sensors deployed in households. The overall goal is to find patterns in the sensors' signals that correlate with a person's activity.
-
-A short presentation of the results can be found here:
-[![Human Pattern Prediction](http://img.youtube.com/vi/AL4BGwj-aBA/0.jpg)](http://www.youtube.com/watch?v=AL4BGwj-aBA "Predictive Analytics")
+This project focuses on analysing data derived from sensors deployed in households. The goal is to find patterns in the sensors' signals that correlate with a person's activity. If irregularities are detected, an app processing the ambient environmental data can actively notifies caregivers.
 
 ## Milestones:
 **Milestones 1**: Normalize the data, identify patterns, detect certain activities.
