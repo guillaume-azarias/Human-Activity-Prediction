@@ -36,8 +36,8 @@ Light, temperature, humidity and CO2 were time series of ambient value measured 
 
 ### Illustrations
 For each resident, single page shows the user (left side) and resident (right side) section. The user section is dedicated to identify the caregiver, analysis mode, time frame and parameter used for activity detection. The resident section shows the contact details, summary of data analysis and data illustration. Below are shown simulated cases where the resident exhibited a usual and unual activity, respectively.
-![Usual Activity](Usual_Activity.pdf)
-![Unusual Activity](Unusual_Activity.pdf)
+![Usual Activity](Usual_Activity.png)
+![Unusual Activity](Unusual_Activity.png)
 
 *How does it work ?* 
 
