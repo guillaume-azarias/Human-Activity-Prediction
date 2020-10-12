@@ -1,23 +1,15 @@
 # Human Activity Prediction from ambient sensor's data
 
-*Capstone project realized during the Data Science bootcamp at the Propulsion Academy (02/2020).*
+*Capstone project realised during the Data Science bootcamp at the Propulsion Academy (02/2020).*
 
 Collaboration with Christophe Bousquet and Juhyun Schoebi.
-
-A summary of our results was presented during a meetup webinar:
-[![Human Pattern Prediction](http://img.youtube.com/vi/AL4BGwj-aBA/0.jpg)](http://www.youtube.com/watch?v=AL4BGwj-aBA "Predictive Analytics")
-
 
 ## Background:
 Human activity patterns can be derived from different sensors like CO2, temperature, noise, etc. For instance, the presence of person can be detected by measuring the ambient concentration of CO2. Quantifying how often a person opens or closes a windows can be derived from light, temperature or humidity data.
 
 ***
-|**Find patterns in the sensor signals that correlate with a person's activity**|
-|:-------:|
-***
-
-***
 ## Project Goals : Find patterns in the sensor signals that correlate with a person's activity.
+
 ***
 
 ## Objectives :
@@ -38,7 +30,15 @@ This project focuses on analysing data derived from sensors deployed in househol
 
 Light, temperature, humidity and CO2 were time series of ambient value measured every 20sec.
 
-### Approach
+## Results
+### Workflow
+[!Workflow](Workflow_.png)
+
+### Illustrations
+A summary of our results was presented during a meetup webinar:
+[![Human Pattern Prediction](http://img.youtube.com/vi/AL4BGwj-aBA/0.jpg)](http://www.youtube.com/watch?v=AL4BGwj-aBA "Predictive Analytics")
+
+### AI Canvas
 **Skills**: Time-series analysis of data. Clustering - pattern analysis
 
 **Output**: Analysis report of activity. Dashboard for a patient-specific overview
@@ -49,9 +49,9 @@ Light, temperature, humidity and CO2 were time series of ambient value measured 
 
 **Customers**: Caregivers, family member, person in charge to provide medical help
 
-### Code structure
+## Code structure
 
-**`1_exploration`**: first handling of the data. Plotting time-series to find the relevant duration and amplitude of patterns. Data interpretation on a few examples.
+**`1_exploration`**: Exploratory data analysis. 2D and 3D plots of time-series.
 
 **`2_forecasting`**: Anomaly detection using time-series forecasting using Prophet from facebook. Possibility to run a single instance, or let the script determine the best parameters for prediction: it will try several numbers of days for the training (this was the most critical parameter to my experience), sort the results according to the mean average percentage error and save the best Prophet result. 
 
