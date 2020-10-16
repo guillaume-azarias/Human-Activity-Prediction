@@ -28,10 +28,10 @@ Light, temperature, humidity and CO2 were time series of ambient values measured
 ## Results
 ### Workflow
 ![Workflow](Workflow_.png)
-The ambient sensor data is collected and securely transfered to a cloud for cleaning, preprocessing and analysis. A dashboard validated by the UX team is accessible to caregivers, allowing them if they need to proceed to a resident checking.
+The ambient sensor data is collected and securely transfered to a cloud for cleaning, preprocessing and analysis. A dashboard validated by the UX team is accessible to caregivers, allowing them to decide if they need to proceed to a specific resident checking.
 
 ### Illustrations
-For each resident, an individual dashboard shows the user (left side) and resident (right side) information:
+For each resident, an individual dashboard shows the user (e.g. caregiver, left side) and resident (right side) information:
 - The user section is dedicated to identify the caregiver, analysis mode, time frame and parameter used for activity detection.
 - The resident section shows the contact details, summary of data analysis and data illustration.
 
