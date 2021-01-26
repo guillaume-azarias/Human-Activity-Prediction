@@ -2,9 +2,7 @@
 
 ![Overview](Overview.png)
 
-*Capstone project realised during the Data Science bootcamp at the Propulsion Academy (02/2020).*
-
-Collaboration with Christophe Bousquet and Juhyun Schoebi.
+*Capstone project realised during the Data Science bootcamp at the Propulsion Academy (02/2020). Read our story [here](https://propulsion.academy/final-projects/caru).*
 
 ## Background:
 Human activity patterns can be derived from different sensors like CO2, temperature, noise, etc. For instance, the presence of person can be detected by measuring the ambient concentration of CO2. Quantifying how often a person opens or closes a windows can be derived from light, temperature or humidity data.
